@@ -1,0 +1,17 @@
+.banner {
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    padding: 10px;
+
+    background-color: black;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.imgBanner {
+    background-color: aqua;
+}
+.labelBanner {
+    background-color: cornflowerblue;
+}
