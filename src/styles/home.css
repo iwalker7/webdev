@@ -4,14 +4,14 @@
     border-color: black;
     padding: 10px;
 
-    background-color: black;
+    /* background-color: black; */
     flex-direction: row;
     display: flex;
     flex-wrap: wrap-reverse;
 }
 .imgBanner {
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .labelBanner {
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
 }
