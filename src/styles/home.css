@@ -1,17 +1,41 @@
+/* banner style*/
 .banner {
     border-radius: 10px;
     border-width: 1px;
     border-color: black;
-    padding: 10px;
+    padding: 20px 250px 20px 250px;
 
-    /* background-color: black; */
+    margin: 10px 0;
+    background-color: blue;
     flex-direction: row;
     display: flex;
-    flex-wrap: wrap-reverse;
-}
-.imgBanner {
-    /* background-color: aqua; */
+    color: white;
 }
 .labelBanner {
-    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.imgBanner {
+    margin-right: 20px;
+}
+
+/* card style*/
+.card img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.card div {
+    padding: 0 15px 0 15px;
+}
+
+/* category style*/
+.category {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+ul li {
+    margin-left: 15px;
+    font-size: 20px;
 }

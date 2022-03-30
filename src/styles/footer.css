@@ -1,0 +1,15 @@
+footer {
+    padding: 0 15% 0 15%;
+    background-color: blue;
+    display: grid;
+    column-gap: 0;
+    row-gap: 0;
+
+    grid-template-columns: auto auto auto;
+    margin-top: 150px;
+    color: white;
+    font-size: 24px;
+}
+footer a {
+    color: gainsboro;
+}

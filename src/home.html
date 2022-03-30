@@ -7,7 +7,11 @@
             name="description"
             content="Author: Web dev demo, Version: v2, Status: alpha"
         />
+        <link rel="stylesheet" href="styles/common.css" />
         <link rel="stylesheet" href="styles/home.css" />
+        <link rel="stylesheet" href="styles/header.css" />
+        <link rel="stylesheet" href="styles/footer.css" />
+
         <title>Lemon press v2</title>
         <style></style>
     </head>
@@ -25,21 +29,21 @@
         </header>
         <main>
             <div class="banner">
-                <!-- <h1>Subscribe</h1> -->
-
                 <img
                     class="imgBanner"
                     src="/assets/subscribeImg.png"
                     alt="subscribeImage"
-                    width="200px"
+                    width="250px"
                 />
 
-                <label class="labelBanner">
-                    Insert mail to subscribe Insert mail to subscribe Insert
-                    mail to subscribe Insert mail to subscribe Insert mail
-
-                    <!-- <input type="text" /> -->
-                </label>
+                <div class="labelBanner">
+                    <h1>Subscribe</h1>
+                    <label>
+                        Insert mail to subscribe Insert mail to subscribe Insert
+                        mail to subscribe Insert mail to subscribe Insert mail
+                        <input type="text" placeholder="example@gmail.com" />
+                    </label>
+                </div>
             </div>
             <ul class="category">
                 <li><a href="cat1">cat 1</a></li>
@@ -51,146 +55,108 @@
                 <li><a href="cat7">cat 7</a></li>
                 <li><a href="cat8">cat 8</a></li>
             </ul>
-            <div class="card">
-                <img
-                    src="https://lemonpress.mn/icon/lemonpress@2x.png"
-                    alt="contentImage1"
-                    width="200px"
-                />
-                <div class="container">
-                    <h4><b>John Doe 1</b></h4>
-                    <p>Architect & Engineer 1</p>
+            <div class="grid-container">
+                <div class="card">
+                    <img src="/assets/cardimg.png" alt="contentImage1" />
+                    <div>
+                        <h4><b>John Doe 1</b></h4>
+                        <p>Architect & Engineer 1</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img
-                    src="https://lemonpress.mn/icon/lemonpress@2x.png"
-                    alt="contentImage2"
-                    width="100px"
-                />
-                <div class="container">
-                    <h4><b>John Doe 2</b></h4>
-                    <p>Architect & Engineer 2</p>
+                <div class="card">
+                    <img src="/assets/cardimg.png" alt="contentImage2" />
+                    <div>
+                        <h4><b>John Doe 2</b></h4>
+                        <p>Architect & Engineer 2</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img
-                    src="https://lemonpress.mn/icon/lemonpress@2x.png"
-                    alt="contentImage3"
-                    width="100px"
-                />
-                <div class="container">
-                    <h4><b>John Doe 3</b></h4>
-                    <p>Architect & Engineer 3</p>
+                <div class="card">
+                    <img src="/assets/cardimg.png" alt="contentImage3" />
+                    <div>
+                        <h4><b>John Doe 3</b></h4>
+                        <p>Architect & Engineer 3</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img
-                    src="https://lemonpress.mn/icon/lemonpress@2x.png"
-                    alt="contentImage4"
-                    width="100px"
-                />
-                <div class="container">
-                    <h4><b>John Doe 4</b></h4>
-                    <p>Architect & Engineer 4</p>
+                <div class="card">
+                    <img src="/assets/cardimg.png" alt="contentImage4" />
+                    <div>
+                        <h4><b>John Doe 4</b></h4>
+                        <p>Architect & Engineer 4</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img
-                    src="https://lemonpress.mn/icon/lemonpress@2x.png"
-                    alt="contentImage5"
-                    width="100px"
-                />
-                <div class="container">
-                    <h4><b>John Doe 5</b></h4>
-                    <p>Architect & Engineer 5</p>
+                <div class="card">
+                    <img src="/assets/cardimg.png" alt="contentImage5" />
+                    <div>
+                        <h4><b>John Doe 5</b></h4>
+                        <p>Architect & Engineer 5</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img
-                    src="https://lemonpress.mn/icon/lemonpress@2x.png"
-                    alt="contentImage6"
-                    width="100px"
-                />
-                <div class="container">
-                    <h4><b>John Doe 6</b></h4>
-                    <p>Architect & Engineer 6</p>
+                <div class="card">
+                    <img src="/assets/cardimg.png" alt="contentImage6" />
+                    <div>
+                        <h4><b>John Doe 6</b></h4>
+                        <p>Architect & Engineer 6</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img
-                    src="https://lemonpress.mn/icon/lemonpress@2x.png"
-                    alt="contentImage7"
-                    width="100px"
-                />
-                <div class="container">
-                    <h4><b>John Doe 7</b></h4>
-                    <p>Architect & Engineer 7</p>
+                <div class="card">
+                    <img src="/assets/cardimg.png" alt="contentImage7" />
+                    <div>
+                        <h4><b>John Doe 7</b></h4>
+                        <p>Architect & Engineer 7</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img
-                    src="https://lemonpress.mn/icon/lemonpress@2x.png"
-                    alt="contentImage8"
-                    width="100px"
-                />
-                <div class="container">
-                    <h4><b>John Doe 8</b></h4>
-                    <p>Architect & Engineer 8</p>
+                <div class="card">
+                    <img src="/assets/cardimg.png" alt="contentImage8" />
+                    <div>
+                        <h4><b>John Doe 8</b></h4>
+                        <p>Architect & Engineer 8</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img
-                    src="https://lemonpress.mn/icon/lemonpress@2x.png"
-                    alt="contentImage9"
-                    width="100px"
-                />
-                <div class="container">
-                    <h4><b>John Doe 9</b></h4>
-                    <p>Architect & Engineer 9</p>
+                <div class="card">
+                    <img src="/assets/cardimg.png" alt="contentImage9" />
+                    <div>
+                        <h4><b>John Doe 9</b></h4>
+                        <p>Architect & Engineer 9</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img
-                    src="https://lemonpress.mn/icon/lemonpress@2x.png"
-                    alt="contentImage10"
-                    width="100px"
-                />
-                <div class="container">
-                    <h4><b>John Doe 10</b></h4>
-                    <p>Architect & Engineer 10</p>
+                <div class="card">
+                    <img src="/assets/cardimg.png" alt="contentImage10" />
+                    <div>
+                        <h4><b>John Doe 10</b></h4>
+                        <p>Architect & Engineer 10</p>
+                    </div>
                 </div>
             </div>
         </main>
         <footer>
-            <article>
+            <div>
                 <h4>Product</h4>
                 <ul>
                     <li><a href="content1.html">News</a></li>
                     <li><a href="content2.html">Podcasts</a></li>
                 </ul>
-            </article>
-            <article>
+            </div>
+            <div>
                 <h4>Contact</h4>
                 <ul>
                     <li><a href="content1.html">Support</a></li>
                     <li><a href="content2.html">Feedback</a></li>
                 </ul>
-            </article>
-            <article>
+            </div>
+            <div>
                 <h4>Company</h4>
                 <ul>
                     <li><a href="content1.html">About us</a></li>
                     <li><a href="content2.html">Blog</a></li>
                 </ul>
-            </article>
-            <article>
+            </div>
+            <div>
                 <h4>Legal</h4>
                 <ul>
                     <li><a href="content1.html">Policy</a></li>
                     <li><a href="content2.html">Term</a></li>
                 </ul>
-            </article>
+            </div>
         </footer>
     </body>
 </html>
