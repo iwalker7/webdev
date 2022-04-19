@@ -1,0 +1,13 @@
+:root {
+    --color-primary: blue;
+    --color-accent: yellow;
+
+    --font-size-xsmall: 10px;
+    --font-size-small: 12px;
+    --font-size-default: 14px;
+    --font-size-large: 16px;
+    --font-size-xlarge: 18px;
+
+    --font-family: Verdana;
+    /* , Geneva, Tahoma, sans-serif; */
+}
