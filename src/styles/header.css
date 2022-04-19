@@ -12,3 +12,20 @@ header {
 nav a {
     margin: 10px;
 }
+
+.logo {
+    max-width: 200px;
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+    header {
+        padding: 0;
+        padding: 10px 5% 10px 5%;
+    }
+    .logo {
+        max-width: 100px;
+    }
+    nav a {
+        font-size: 14px;
+    }
+}

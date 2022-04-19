@@ -4,9 +4,7 @@
     border-width: 1px;
     border-color: black;
     padding: 20px 250px 20px 250px;
-
-    margin: 10px 0;
-    background-color: blue;
+    background-color: gray;
     flex-direction: row;
     display: flex;
     color: white;
@@ -18,24 +16,21 @@
 }
 .imgBanner {
     margin-right: 20px;
+    width: 250px;
+    height: 250px;
 }
 
-/* card style*/
-.card img {
-    width: 100%;
-    border-radius: 15px 15px 0 0;
-}
-.card div {
-    padding: 0 15px 0 15px;
-}
-
-/* category style*/
-.category {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-}
-ul li {
-    margin-left: 15px;
-    font-size: 20px;
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+    .banner {
+        background-color: rebeccapurple;
+        padding: 10px;
+    }
+    .imgBanner {
+        margin-right: 10px;
+        width: 150px;
+        height: 150px;
+    }
+    .labelBanner {
+        font-size: 10px;
+    }
 }
