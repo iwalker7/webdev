@@ -1,6 +1,7 @@
 export const data = [
     {
         title: "Улс төр",
+        category: "politic",
         items: [
             {
                 imgSrc: "../assets/cardimg.png",
@@ -34,6 +35,7 @@ export const data = [
     },
     {
         title: "Технологи",
+        category: "technology",
         items: [
             {
                 imgSrc: "../assets/cardimg.png",
@@ -55,6 +57,7 @@ export const data = [
     },
     {
         title: "Спорт",
+        category: "sport",
         items: [
             {
                 imgSrc: "../assets/cardimg.png",

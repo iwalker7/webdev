@@ -3,6 +3,7 @@
 const homeData = [
     {
         title: "Улс төр",
+        category: "politic",
         items: [
             {
                 imgSrc: "../assets/cardimg.png",
@@ -36,6 +37,7 @@ const homeData = [
     },
     {
         title: "Технологи",
+        category: "technology",
         items: [
             {
                 imgSrc: "../assets/cardimg.png",
@@ -57,6 +59,7 @@ const homeData = [
     },
     {
         title: "Спорт",
+        category: "sport",
         items: [
             {
                 imgSrc: "../assets/cardimg.png",
@@ -85,6 +88,10 @@ const homeData = [
         ],
     },
 ];
+
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const categoryType = urlParams.get("category");
 
 const main = document.getElementById("main");
 
@@ -127,15 +134,24 @@ function renderItems(items = []) {
     });
 }
 
+function onCategory(index) {
+    const buttonList = document.querySelectorAll("button");
+    buttonList.forEach((e, i) => {
+        i === index
+            ? (e.style.backgroundColor = "blue")
+            : (e.style.backgroundColor = "gray");
+    });
+
+    renderItems(homeData[index].items);
+}
+
 function createListItem(label, index) {
     const listItem = document.createElement("li");
     const catButton = document.createElement("button");
     const mLabel = document.createTextNode(label);
     catButton.appendChild(mLabel);
     catButton.className = "catButton";
-    catButton.onclick = () => {
-        renderItems(homeData[index].items);
-    };
+    catButton.onclick = () => onCategory(index);
 
     listItem.appendChild(catButton);
     return listItem;
@@ -148,7 +164,10 @@ function createCategories() {
 
     main.appendChild(categories);
     main.appendChild(itemsContainer);
-    renderItems(homeData[0].items);
+
+    const index = homeData.findIndex((e) => e.category === categoryType);
+
+    onCategory(index > -1 ? index : 0);
 }
 
 createCategories();
