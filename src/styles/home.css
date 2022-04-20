@@ -3,7 +3,8 @@
     border-radius: 10px;
     border-width: 1px;
     border-color: black;
-    padding: 20px 250px 20px 250px;
+    padding: 5% 15% 5% 15%;
+    margin: 0 15% 0 15%;
     background-color: gray;
     flex-direction: row;
     display: flex;
@@ -15,14 +16,19 @@
     flex-direction: column;
 }
 .imgBanner {
-    margin-right: 20px;
-    width: 250px;
-    height: 250px;
+    margin-right: 100px;
+    width: 200px;
     animation-name: bounce-2;
     animation-timing-function: ease;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     transform-origin: bottom;
+}
+.catButton {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    color: white;
 }
 
 @media only screen and (max-width: 768px) and (orientation: portrait) {
@@ -32,8 +38,8 @@
     }
     .imgBanner {
         margin-right: 10px;
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 50px;
     }
     .labelBanner {
         font-size: 10px;
@@ -43,14 +49,11 @@
 @keyframes bounce-2 {
     0% {
         transform: translateY(0);
-        width: 250px;
     }
     50% {
         transform: translateY(-50px);
-        width: 150px;
     }
     100% {
         transform: translateY(0);
-        width: 250px;
     }
 }
