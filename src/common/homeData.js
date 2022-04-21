@@ -1,4 +1,4 @@
-export const data = [
+export const homeData = [
     {
         title: "Улс төр",
         category: "politic",

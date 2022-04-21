@@ -1,23 +1,23 @@
 footer {
-    padding: 0 15% 0 15%;
-    background-color: blue;
+    padding: 0 var(--space-per-15);
+    background-color: var(--color-primaryDark);
     display: grid;
     column-gap: 0;
     row-gap: 0;
 
     grid-template-columns: auto auto auto;
-    margin-top: 150px;
-    color: white;
-    font-size: 24px;
+    margin-top: var(--space-per-15);
+    color: var(--color-white);
+    font-size: var(--font-size-24);
 }
 footer a {
-    color: gainsboro;
+    color: var(--color-inActive);
 }
 
 @media only screen and (max-width: 768px) and (orientation: portrait) {
     footer {
-        font-size: 16px;
-        margin-top: 50px;
-        padding: 0 5% 0 5%;
+        font-size: var(--font-size-16);
+        margin-top: var(--space-30);
+        padding: 0 var(--space-per-5);
     }
 }

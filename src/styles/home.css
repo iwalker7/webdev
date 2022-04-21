@@ -1,14 +1,14 @@
 /* banner style*/
 .banner {
-    border-radius: 10px;
+    border-radius: var(--border-radius-20);
     border-width: 1px;
-    border-color: black;
-    padding: 5% 15% 5% 15%;
-    margin: 0 15% 0 15%;
-    background-color: gray;
+    border-color: var(--color-black);
+    padding: var(--space-per-5);
+    margin: 0 var(--space-per-15);
+    background-color: var(--color-inActive);
     flex-direction: row;
     display: flex;
-    color: white;
+    color: var(--color-textPrimary);
 }
 .labelBanner {
     display: flex;
@@ -25,24 +25,24 @@
     transform-origin: bottom;
 }
 .catButton {
-    padding: 10px;
-    border-radius: 10px;
+    padding: var(--space-10) var(--space-20);
+    border-radius: var(--border-radius-20);
     background-color: var(--color-primary);
-    color: white;
+    color: var(--color-white);
 }
 
 @media only screen and (max-width: 768px) and (orientation: portrait) {
     .banner {
-        background-color: rebeccapurple;
-        padding: 10px;
+        background-color: var(--color-inActive);
+        padding: var(--space-10);
     }
     .imgBanner {
-        margin-right: 10px;
+        margin-right: var(--space-10);
         width: 100px;
-        height: 50px;
+        height: var(--space-50);
     }
     .labelBanner {
-        font-size: 10px;
+        font-size: var(--font-size-10);
     }
 }
 

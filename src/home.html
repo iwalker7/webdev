@@ -7,15 +7,17 @@
             name="description"
             content="Author: Web dev demo, Version: v2, Status: alpha"
         />
+        <title>Lemon press v2</title>
         <link rel="stylesheet" href="styles/common.css" />
         <link rel="stylesheet" href="styles/home.css" />
         <link rel="stylesheet" href="styles/header.css" />
         <link rel="stylesheet" href="styles/footer.css" />
         <link rel="stylesheet" href="styles/openprops.css" />
 
-        <title>Lemon press v2</title>
+        <script type="module" src="./script/home.js"></script>
     </head>
     <body>
+        <!-- Header  -->
         <header>
             <img src="../assets/logo.png" alt="logo" class="logo" />
             <nav>
@@ -23,6 +25,8 @@
                 <a href="podcast.html">Podcasts</a>
             </nav>
         </header>
+
+        <!-- Banner -->
         <banner class="banner">
             <img
                 class="imgBanner"
@@ -39,90 +43,11 @@
                 </label>
             </div>
         </banner>
-        <main id="main">
-            <!-- <ul class="category">
-                <li><a href="cat1">Дэлгэрэнгүй</a></li>
-                <li><a href="cat2">cat 2</a></li>
-                <li><a href="cat3">cat 3</a></li>
-                <li><a href="cat4">cat 4</a></li>
-                <li><a href="cat5">cat 5</a></li>
-                <li><a href="cat6">cat 6</a></li>
-                <li><a href="cat7">cat 7</a></li>
-                <li><a href="cat8">cat 8</a></li>
-            </ul> -->
-            <!-- <div class="grid-container">
-                <div class="card">
-                    <img src="../assets/cardimg.png" alt="contentImage1" />
-                    <div>
-                        <h4><b>John Doe 1</b></h4>
-                        <p>Architect & Engineer 1</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../assets/cardimg.png" alt="contentImage2" />
-                    <div>
-                        <h4><b>John Doe 2</b></h4>
-                        <p>Architect & Engineer 2</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../assets/cardimg.png" alt="contentImage3" />
-                    <div>
-                        <h4><b>John Doe 3</b></h4>
-                        <p>Architect & Engineer 3</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../assets/cardimg.png" alt="contentImage4" />
-                    <div>
-                        <h4><b>John Doe 4</b></h4>
-                        <p>Architect & Engineer 4</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../assets/cardimg.png" alt="contentImage5" />
-                    <div>
-                        <h4><b>John Doe 5</b></h4>
-                        <p>Architect & Engineer 5</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../assets/cardimg.png" alt="contentImage6" />
-                    <div>
-                        <h4><b>John Doe 6</b></h4>
-                        <p>Architect & Engineer 6</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../assets/cardimg.png" alt="contentImage7" />
-                    <div>
-                        <h4><b>John Doe 7</b></h4>
-                        <p>Architect & Engineer 7</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../assets/cardimg.png" alt="contentImage8" />
-                    <div>
-                        <h4><b>John Doe 8</b></h4>
-                        <p>Architect & Engineer 8</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../assets/cardimg.png" alt="contentImage9" />
-                    <div>
-                        <h4><b>John Doe 9</b></h4>
-                        <p>Architect & Engineer 9</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../assets/cardimg.png" alt="contentImage10" />
-                    <div>
-                        <h4><b>John Doe 10</b></h4>
-                        <p>Architect & Engineer 10</p>
-                    </div>
-                </div>
-            </div> -->
-        </main>
+
+        <!-- Main -->
+        <main id="homeMain"></main>
+
+        <!-- Footer -->
         <footer>
             <div>
                 <h4>Product</h4>
@@ -154,5 +79,4 @@
             </div>
         </footer>
     </body>
-    <script src="./script/home.js"></script>
 </html>

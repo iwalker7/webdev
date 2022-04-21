@@ -1,7 +1,7 @@
 .card img {
     width: 100%;
-    border-radius: 15px 15px 0 0;
+    border-radius: var(--border-radius-default);
 }
 .card div {
-    padding: 0 15px 0 15px;
+    padding: 0 var(--space-default);
 }
