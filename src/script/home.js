@@ -15,6 +15,7 @@ categories.className = "category";
 const itemsContainer = document.createElement("div");
 itemsContainer.className = "grid-container";
 
+
 function renderItems(items = []) {
     var child = itemsContainer.lastElementChild;
     while (child) {
@@ -34,7 +35,6 @@ function renderItems(items = []) {
         itemsContainer.appendChild(card.render());
     });
 }
-
 function onCategory(index) {
     const buttonList = document.querySelectorAll("button");
     buttonList.forEach((e, i) => {

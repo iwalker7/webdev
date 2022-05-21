@@ -27,6 +27,20 @@ export const homeData = [
             {
                 imgSrc: "../assets/cardimg.png",
                 section: {
+                    title:"АМАРГҮЙ” АМЛАГЧ",
+                    description: "Тэр бол амлагч. “Шударга тав”-ын нэг."
+                },
+            },
+            {
+                imgSrc: "../assets/cardimg.png",
+                section: {
+                    title:"АМАРГҮЙ” АМЛАГЧ",
+                    description: "Тэр бол амлагч. “Шударга тав”-ын нэг."
+                },
+            },
+            {
+                imgSrc: "../assets/cardimg.png",
+                section: {
                     title: "“АМАРГҮЙ” АМЛАГЧ",
                     description: "Тэр бол амлагч. “Шударга тав”-ын нэг.",
                 },
@@ -37,6 +51,14 @@ export const homeData = [
         title: "Технологи",
         category: "technology",
         items: [
+            {
+                imgSrc: "../assets/cardimg.png",
+                section: {
+                    title: "Ангараг руу аялах тасалбарын үнэ 100 мянган доллар",
+                    description:
+                        "Элон Маскийн “SpaceX” компани ирээдүйд Ангараг гариг дээр бие даасан хот байгуулахаар төлөвлөж буй.",
+                },
+            },
             {
                 imgSrc: "../assets/cardimg.png",
                 section: {

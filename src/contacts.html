@@ -1,87 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-            name="description"
-            content="Author: Web dev demo, Version: v2, Status: alpha"
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+        name="description"
+        content="Author: Web dev demo, Version: v2, Status: alpha"
+    />
+    <link rel="stylesheet" href="styles/contacts.css" />
+    <title>Lemon press v2</title>
+    <style></style>
+</head>
+<body>
+    <header>
+        <img
+            src="https://lemonpress.mn/icon/lemonpress@2x.png"
+            alt="logo"
+            width="200px"
         />
-        <link rel="stylesheet" href="styles/common.css" />
-        <link rel="stylesheet" href="styles/podcast.css" />
-        <link rel="stylesheet" href="styles/header.css" />
-        <link rel="stylesheet" href="styles/footer.css" />
-        <link rel="stylesheet" href="styles/openprops.css" />
-
-        <title>Lemon press v2</title>
-        <style></style>
-    </head>
-    <body>
-        <header>
-            <img
-                src="https://lemonpress.mn/icon/lemonpress@2x.png"
-                alt="logo"
-                width="200px"
-            />
-            <menu>
-                <li><button onclick="copy()">Мэдээ</button></li>
-                <li><button onclick="cut()">Товхимол</button></li>
-                <li><button onclick="paste()">Подкаст</button></li>
-                <li><button onclick="cut()">Баг</button></li>
-                <li><button onclick="paste()">Бодлого</button></li>
-              </menu>
-              <p>
-                Хаяг: Анрид ХХК, Ayud Tower, 16 давхар, СБД, Олимпийн гудамж, 1-р хороо, Улаанбаатар хот 17032, Монгол улс
-                Утас: +976-9997 4617, +976-8011 3611
-              </p>
-              <p>
-                Компанийн вэбсайт: http://www.lemonpress.mn/
-                Компанийн имэйл: daily@lemonpress.mn
-                Фэйсбүүк https://www.facebook.com/lemonpress.mn
-                Твиттер: lemonpressinc
-                Инстаграм: lemonpress.mn
-              </p>
-              <p>
-                Компанийн имэйл: daily@lemonpress.mn
-              </p>
-              <p>
-                Фэйсбүүк https://www.facebook.com/lemonpress.mn
-              </p>
-              <p>
-                Твиттер: lemonpressinc
-              </p>
-              <p>
-                Инстаграм: lemonpress.mn
-              </p>
-    <footer>
-        <article>
-            <h4>Product</h4>
-            <ul>
-                <li><a href="content1.html">News</a></li>
-                <li><a href="content2.html">Podcasts</a></li>
-            </ul>
-        </article>
-        <article>
-            <h4>Contact</h4>
-            <ul>
-                <li><a href="content1.html">Support</a></li>
-                <li><a href="content2.html">Feedback</a></li>
-            </ul>
-        </article>
-        <article>
-            <h4>Company</h4>
-            <ul>
-                <li><a href="content1.html">About us</a></li>
-                <li><a href="content2.html">Blog</a></li>
-            </ul>
-        </article>
-        <article>
-            <h4>Legal</h4>
-            <ul>
-                <li><a href="content1.html">Policy</a></li>
-                <li><a href="content2.html">Term</a></li>
-            </ul>
-        </article>
-    </footer>
-</body>
-</html>
+<html lang="en">
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="C:\Users\Nitro\Pictures/map.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
